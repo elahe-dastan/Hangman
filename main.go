@@ -18,6 +18,5 @@ func main() {
 		}
 
 		p.Play()
-
 	}
 }
