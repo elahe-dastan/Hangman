@@ -43,8 +43,9 @@ func (p Problem) Show() bool {
 	for _, val := range p.result {
 		if val == 0 {
 			fmt.Print("_")
+
 			completed = false
-		}else {
+		} else {
 			fmt.Print(string(val))
 		}
 	}
@@ -54,7 +55,7 @@ func (p Problem) Show() bool {
 	return completed
 }
 
-func (p Problem) Play()  {
+func (p Problem) Play() {
 	fmt.Print("PLayer: ")
 
 	reader := bufio.NewReader(os.Stdin)
