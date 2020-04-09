@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Hangman/bank"
-	"Hangman/handler"
+	"github.com/elahe-dastan/hangman/bank"
+	"github.com/elahe-dastan/hangman/handler"
 )
 
 func main() {
