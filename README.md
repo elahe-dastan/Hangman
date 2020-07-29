@@ -1,4 +1,5 @@
 # Hangman
+[![Build Status](https://cloud.drone.io/api/badges/elahe-dastan/Hangman/status.svg)](https://cloud.drone.io/elahe-dastan/Hangman)
 
 ### Implemented Hangman game using Go
 
